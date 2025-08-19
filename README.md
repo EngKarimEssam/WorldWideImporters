@@ -9,7 +9,7 @@
     - Authentication: SAS, and here is the  Token: sv=2022-11-02&ss=b&srt=sco&sp=rlx&se=2026-03-05T22:36:26Z&st=2025-03-05T14:36:26Z&spr=https&sig=uOFNOXp6wQKgNdkKw6GUzaSF99UX%2Bma%2B244NWHdHxx0%3D
 
  
-- using a pipeline for ingestion & transformation
+- using a pipeline for ingestion & transformation and loading data into the table folder in the lakehouse
 - 
 - 
 - 
