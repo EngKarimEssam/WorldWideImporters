@@ -77,3 +77,5 @@
 - PySpark engine drastically improves performance vs pipelines.
 - Lakehouse + SQL endpoint provides flexibility for analysts and engineers.
 
+[Watch the project on YouTube](https://youtu.be/fCnlzTd5n8E?si=O-j5GrFnxIAbpzJ9)
+
