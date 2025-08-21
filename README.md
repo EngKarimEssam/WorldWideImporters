@@ -33,8 +33,9 @@
   - Reduced process latency
   - Simplified security (OneLake manages credentials)
 - Source: Azure Data Lake Storage Gen2
-  - URL: https://<your-storage-account>.dfs.core.windows.net/
-  - Authentication: SAS Token (not included for security reasons)
+  - URL: https://pwadlsfabric.dfs.core.windows.net/
+  - Authentication: SAS
+  - Token sv=2022-11-02&ss=b&srt=sco&sp=rlx&se=2026-03-05T22:36:26Z&st=2025-03-05T14:36:26Z&spr=https&sig=uOFNOXp6wQKgNdkKw6GUzaSF99UX%2Bma%2B244NWHdHxx0%3D
 
 
 
@@ -55,6 +56,9 @@
 - Example with Fact_Sales:
   - Pipeline load: ~12 minutes
   - PySpark load: ~1 minute ⚡
+ 
+<img width="1425" height="627" alt="2025-08-21_224122" src="https://github.com/user-attachments/assets/f74562a0-7bf6-4715-b3b1-0f63552b3158" />
+<img width="1488" height="459" alt="2025-08-21_224202" src="https://github.com/user-attachments/assets/8fa3b6c7-8ca1-457b-897a-d9e1ef566fc1" />
 
 
 
