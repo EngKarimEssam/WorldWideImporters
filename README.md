@@ -8,8 +8,12 @@
     - I get the data from https://pwadlsfabric.dfs.core.windows.net/
     - Authentication: SAS, and here is the  Token: sv=2022-11-02&ss=b&srt=sco&sp=rlx&se=2026-03-05T22:36:26Z&st=2025-03-05T14:36:26Z&spr=https&sig=uOFNOXp6wQKgNdkKw6GUzaSF99UX%2Bma%2B244NWHdHxx0%3D
 
- 
-- using a pipeline for ingestion & transformation and loading data into the table folder in the lakehouse
-- 
+- Pipeline:
+  - using a pipeline for ingestion & transformation and loading Fact_Sales into the table folder in the lakehouse (using copy assistant)
+  - load Dim_City using a pipeline (using add to canvas)
+  - What if we have 100 tables? will we create 100 pipeline? Noooo
+    - We can load it dynamically:
+      - 1. edit child_piepline and add a parameter
+        2. 
 - 
 - 
